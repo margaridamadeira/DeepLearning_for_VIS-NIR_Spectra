@@ -18,7 +18,7 @@ understand what and why some stuff was done. That is one of the reasons I though
 Please feel free to take a look around and see if you find anything useful for your own research. Be aware of possible 
 bugs in the codes!! 
 
-This repository will be continuoulsy updated. At some point I'll also introduce a list of interesting online resources on these topics...
+This repository will be continuously updated. At some point I'll also introduce a list of interesting online resources on these topics...
 
 
 My [ResearchGate profile](https://www.researchgate.net/profile/Dario_Passos).<br>
@@ -50,7 +50,7 @@ cells (the training steps outputs are visible).
 This notebook attempts to replicate section section 5.3 of "*Modern practical convolutional neural networks for multivariate regression: Applications to NIR calibration*" ( [paper here](https://www.sciencedirect.com/science/article/pii/S0169743918301382?via%3Dihub) ) by Cui, C. and Fearn, T. 2018. 
 I implemented the CNN architecture that the authors suggest for spectral analysis and applied it to a "small dataset". The data used here (named data set 3 by the authors) was downloaded from the [original source](http://www.models.kvl.dk/wheat_kernels). For details and references about the data check the source website or the "Data description.txt" file included.
 
-This is a regression problem. Basically we use the spectra information (our X) to predict the ammount of some chemical compound (our Y). A PLS model is used as baseline for error metrics comparison. 
+This is a regression problem. Basically we use the spectra information (our X) to predict the amount of some chemical compound (our Y). A PLS model is used as baseline for error metrics comparison. 
 From a Physics/Chemistry point of view, many researchers need to find which spectral features (absorption bands) are being more used to predict whatever they need to predict. This is helpful because absorption bands allow to identify chemical compounds and in last instance to help understand what physical or even biological processes are in play. So, there is a need to explore the interpretability of NN models. Cui and Fearn 2018, suggest looking at the "regression coefficients of the NN" (see section 2.7 of the paper for details). This is also implemented in this notebook.
 
 Check the .ipynb notebook for details [CuiFearn2018_CNN/Cui_CNN.ipynb](/notebooks/CuiFearn2018_CNN/Cui_CNN.ipynb).
